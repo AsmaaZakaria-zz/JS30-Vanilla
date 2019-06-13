@@ -1,0 +1,43 @@
+body {
+  background-image: url(./images/music-bg.jpg);
+}
+
+.container {
+  height: 400px;
+  width: 75vw;
+  border: 2px solid #607D8B;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  width: 65px;
+  height: 65px;
+  border: 2px solid grey;
+  margin: 20px;
+  color: khaki;
+  text-align: center;
+  transition: all 0.07s;
+  font-size: 20px;
+  display: grid;
+}
+
+.sound {
+  color: coral;
+  font-size: 15px;
+  transition: all 0.07s;
+}
+
+.sound-playing {
+  transform: rotate(360deg);
+  /* transform: scale(1.1); */
+}
+
+.playing {
+  transform: scale(1.5);
+  border: 2px solid red;
+  border-radius: 5px;
+}
