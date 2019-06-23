@@ -3,3 +3,4 @@ My JS30 Challenge apps [AsmaaZakaria.github.io/JS30-Vanilla](https://AsmaaZakari
 
 # Table of Contents
 - [DrumKit](./1-DrumKit)
+- [Clock](./2-Clock)
