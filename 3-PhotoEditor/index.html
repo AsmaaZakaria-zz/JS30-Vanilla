@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS30 - PhotoEditor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      Mini Photo Editor With <span id="js">JS</span>
+    </div>
+    <div class="editor">
+      <div class="section props">
+        <div class="prop">
+          <label for="height">Height</label>
+          <input type="number" name="height" value="300" min="10" max="450" data-size="px">
+        </div>
+        <div class="prop">
+          <label for="width">Width</label>
+          <input type="number" name="width" value="300" min="10" max="450" data-size="px">
+        </div>
+        <div class="prop">
+          <label for="spacing">Spacing</label>
+          <input type="range" name="spacing" value="0" min="0" max="100" data-size="px">
+        </div>
+        <div class="prop">
+          <label for="blur">Blur</label>
+          <input type="range" name="blur" value="0" min="0" max="50" step="0.5" data-size="px">
+        </div>
+        <div class="prop">
+          <label for="brightness">Brightness</label>
+          <input type="range" name="brightness" value="0" min="1" max="5" step="0.1">
+        </div>
+        <div class="prop">
+          <label for="opacity">Opacity</label>
+          <input type="range" name="opacity" value="1" min="0" max="1" step="0.01">
+        </div>
+        <div class="prop">
+          <label for="grayscale">GreyScale</label>
+          <input type="range" name="grayscale" value="0" min="0" max="1" step="0.01">
+        </div>
+        <div class="prop">
+          <label for="raduis">Raduis</label>
+          <input type="range" name="raduis" value="0" min="0" max="50" data-size="%">
+        </div>
+        <div class="prop">
+          <label for="color">Base Color</label>
+          <input type="color" name="base-color">
+        </div>
+      </div>
+      <div class="section photo-container">
+        <img src="photo.jpg" class="photo"/>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </body>
+</html>
