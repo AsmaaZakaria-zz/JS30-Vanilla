@@ -6,3 +6,4 @@
 ## improvements:
 - add choose image
 - display CSS effects of the image at the bottom
+- add dark mode
