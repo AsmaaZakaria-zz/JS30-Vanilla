@@ -9,3 +9,4 @@ My JS30 Challenge apps [AsmaaZakaria.github.io/JS30-Vanilla](https://AsmaaZakari
 - [PhotoEditor](./3-PhotoEditor)
 - [ArrayCardio](./4-ArrayCardio)
 - [FlexPanel](./5-FlexPanelGallery)
+- [TypeAhead](./6-TypeAhead)
